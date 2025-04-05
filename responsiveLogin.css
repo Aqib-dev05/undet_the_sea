@@ -1,0 +1,167 @@
+/* responsiveness */
+@media screen and (max-width: 324px) {
+  body {
+    overflow-y: auto;
+  }
+  #starfish {
+    display: none;
+  }
+  #shark {
+    display: none;
+  }
+  section #Octopus {
+    display: none;
+  }
+  .login-box {
+    margin: 0 auto;
+    width: 100vw;
+    position: static;
+  }
+  form img {
+    display: none;
+  }
+  .login-box h1 {
+    font-size: 2.7rem;
+    letter-spacing: 20px;
+  }
+  .input-container {
+    gap: 15px;
+  }
+}
+@media screen and (min-width: 325px) and (max-width: 440px) {
+  body {
+    overflow-y: auto;
+  }
+  #starfish {
+    display: none;
+  }
+  #shark {
+    display: none;
+  }
+  section #Octopus {
+    display: none;
+  }
+  .login-box {
+    margin: 3vh auto;
+    width: 96vw;
+    position: static;
+  }
+  form img {
+    width: 150px;
+  }
+  .login-box h1 {
+    font-size: 2.7rem;
+    letter-spacing: 20px;
+  }
+  .input-container {
+    gap: 25px;
+  }
+}
+@media screen and (min-width: 441px) and (max-width: 600px) {
+  #starfish {
+    display: none;
+  }
+  #shark {
+    display: none;
+  }
+  section #Octopus {
+    display: none;
+  }
+  .login-box {
+    margin: 4vh auto;
+    width: 90vw;
+    position: static;
+    overflow: hidden;
+  }
+  form img {
+    width: 140px;
+  }
+  .login-box h1 {
+    font-size: 3rem;
+    letter-spacing: 15px;
+  }
+  .input-container {
+    gap: 15px;
+  }
+  #subBtn {
+    width: 60%;
+    z-index: 2;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 766px) {
+  #starfish {
+    /* display: none; */
+    width: 250px;
+    left: -30px;
+    bottom: 70px;
+  }
+  #shark {
+    display: none;
+  }
+  section #Octopus {
+    display: none;
+  }
+  .login-box {
+    margin: 4vh auto;
+    width: 90vw;
+    position: static;
+    overflow: hidden;
+  }
+  form img {
+    width: 200px;
+  }
+  .login-box h1 {
+    font-size: 3rem;
+    letter-spacing: 15px;
+  }
+  .input-container {
+    gap: 15px;
+  }
+  #subBtn {
+    width: 60%;
+    z-index: 2;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  #starfish {
+    display: none;
+  }
+  #shark {
+    display: none;
+  }
+  section #Octopus {
+    display: none;
+  }
+  .login-box {
+    margin: 0 auto;
+    transform: translateY(30%);
+    width: 50vw;
+    position: static;
+    overflow: hidden;
+  }
+  form img {
+    width: 160px;
+  }
+  .login-box h1 {
+    font-size: 3rem;
+    letter-spacing: 5px;
+  }
+  .input-container {
+    gap: 10px;
+  }
+  #subBtn {
+    width: 60%;
+    z-index: 2;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1550px) {
+  #starfish {
+    width: 300px;
+  }
+  .login-box {
+    margin-top: 5vh;
+  }
+  #Octopus{
+    display: none;
+  }
+}

@@ -1,0 +1,174 @@
+/*animations*/
+@keyframes dolphin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes octopus {
+  to {
+    scale: 1.5;
+  }
+}
+@keyframes starfish {
+  to {
+    transform: rotate(6deg);
+  }
+}
+@keyframes shark {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.07);
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/*Back-groud image*/
+section {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(assests/logPictures/beneathWater.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+/*starfish*/
+#starfish {
+  position: absolute;
+  transform: rotate(-15deg);
+  width: 500px;
+  bottom: 20px;
+  left: -90px;
+  animation: starfish 15s linear infinite alternate;
+  filter: drop-shadow(0px 0px 10px rgba(52, 48, 48, 0.8));
+}
+/*octopus*/
+section #Octopus {
+  width: 110px;
+  position: absolute;
+  top: 30%;
+  right: 27.5%;
+  animation: octopus 15s linear infinite alternate;
+}
+/*dolphin*/
+form img {
+  width: 160px;
+
+  transform: translateX(55%);
+}
+/*dolphin animation*/
+.dolp {
+  animation: dolphin 5s linear infinite;
+}
+/*shark*/
+#shark {
+  width: 450px;
+  height: 600px;
+  position: absolute;
+  right: -70px;
+  bottom: -80px;
+  transform: rotate(-7deg);
+  animation: shark 2.5s linear infinite alternate;
+}
+/*glassy box*/
+.login-box {
+  margin: 34vh 0;
+  position: absolute;
+  right: 29.5%;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  box-shadow: 0px 0px 90px 2px rgba(255, 255, 255, 0.2);
+}
+.login-box h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.input-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+.inputAndLabel {
+  border-bottom: 3px solid white;
+  width: 100%;
+  margin: 10px 0px;
+  position: relative;
+}
+.inputAndLabel input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 1.3rem;
+  color: aqua;
+  font-weight: 550;
+}
+
+.inputAndLabel label {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  padding-left: 2px;
+  transition: 0.1s linear;
+}
+.inputAndLabel input:focus ~ label,
+.inputAndLabel input:valid ~ label {
+  transform: translateY(-120%);
+  top: 10px;
+  font-size: 1.05rem;
+}
+.checkbox-container {
+  padding-left: 15px;
+}
+.checkbox-container input {
+  scale: 1.5;
+}
+.checkbox-container label {
+  font-size: 1.1rem;
+  padding-left: 8px;
+}
+#subBtn {
+  height: 60px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.14);
+  width: 86%;
+  margin: 20px auto;
+  border-radius: 8px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+#subBtn:hover {
+  color: rgba(0, 255, 255, 0.713);
+  background-color: rgba(0, 255, 255, 0.01);
+  box-shadow: 0px 0px 8px 5px rgba(255, 255, 255, 0.3);
+}

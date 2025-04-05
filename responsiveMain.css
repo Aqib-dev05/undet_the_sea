@@ -1,0 +1,411 @@
+/* responsiveness */
+@media screen and (max-width: 360px) {
+  .glass nav {
+    justify-content: space-between;
+    margin-top: 8px;
+    padding-inline: 16px;
+  }
+  .glass nav .links {
+    display: none;
+  }
+  .glass nav h1 {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .home-content-container {
+    margin-top: 20%;
+  }
+  .home-content-container h3 {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 8px;
+  }
+  .home-content-container h2 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    margin-top: 10px;
+  }
+  #starfish {
+    width: 200px;
+    height: 200px;
+    margin-left: 20%;
+    margin-top: 50px;
+  }
+
+  .glass1 {
+    padding: 8px;
+    flex-direction: column-reverse;
+  }
+  .glass2 {
+    flex-direction: column-reverse;
+  }
+  .image-contain {
+    width: 100%;
+    height: 40%;
+  }
+  .image-contain img {
+    scale: 0.2;
+    margin-top: 35px;
+  }
+  .content-box {
+    width: 100%;
+    margin-top: 5px;
+    height: 60%;
+  }
+  .glass1 .content-box h2 {
+    font-size: 20px;
+
+    margin: 16px 0;
+  }
+  .glass1 .content-box p {
+    font-size: 12px;
+    margin-top: 6px;
+  }
+  .glass1 .content-box p:nth-child(3) {
+    display: none;
+  }
+  .hippo-contain img {
+    scale: 0.6;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 441px) {
+  .glass nav {
+    justify-content: space-between;
+    padding-inline: 20px;
+    margin-top: 8px;
+  }
+  .glass nav .links {
+    display: none;
+  }
+  .glass nav h1 {
+    font-weight: 700;
+    font-size: 29px;
+  }
+  .home-content-container {
+    margin-top: 20%;
+  }
+  .home-content-container h3 {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 8px;
+  }
+  .home-content-container h2 {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    margin-top: 10px;
+  }
+  #starfish {
+    width: 230px;
+    height: 230px;
+    margin-left: 20%;
+    margin-top: 70px;
+  }
+
+  .glass1 {
+    padding: 8px;
+    flex-direction: column-reverse;
+  }
+  .glass2 {
+    flex-direction: column-reverse;
+  }
+  .image-contain {
+    width: 100%;
+    height: 40%;
+  }
+  .image-contain img {
+    scale: 0.4;
+    margin-top: 35px;
+  }
+  .content-box {
+    width: 100%;
+    margin-top: 5px;
+    height: 60%;
+  }
+  .glass1 .content-box h2 {
+    font-size: 20px;
+
+    margin: 20px 0;
+  }
+  .glass1 .content-box p {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  .glass1 .content-box p:nth-child(3) {
+    display: none;
+  }
+  .hippo-contain img {
+    scale: 0.8;
+  }
+}
+@media screen and (min-width: 441px) and (max-width: 601px) {
+  .glass nav {
+    justify-content: space-between;
+    padding-inline: 24px;
+    margin-top: 10px;
+  }
+  .glass nav .links {
+    display: none;
+  }
+  .glass nav h1 {
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .home-content-container {
+    margin-top: 20%;
+  }
+  .home-content-container h3 {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 8px;
+  }
+  .home-content-container h2 {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    margin-top: 10px;
+  }
+  #starfish {
+    width: 250px;
+    height: 250px;
+    margin-left: 20%;
+    margin-top: 70px;
+  }
+
+  .glass1 {
+    padding: 12px;
+    flex-direction: column-reverse;
+  }
+  .glass2 {
+    flex-direction: column-reverse;
+  }
+  .image-contain {
+    width: 100%;
+    height: 40%;
+  }
+  .image-contain img {
+    scale: 0.5;
+    margin-top: 35px;
+  }
+  .content-box {
+    width: 100%;
+    margin-top: 5px;
+    height: 60%;
+  }
+  .glass1 .content-box h2 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  .glass1 .content-box p {
+    font-size: 18px;
+    margin-top: 8px;
+  }
+  .glass1 .content-box p:nth-child(3) {
+    display: none;
+  }
+  .hippo-contain img {
+    scale: 0.8;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 767px) {
+  .glass nav {
+    justify-content: space-between;
+    padding-inline: 30px;
+    margin-top: 12px;
+  }
+  .glass nav .links {
+    display: none;
+  }
+  .glass nav h1 {
+    font-weight: 700;
+    font-size: 32px;
+  }
+  .home-content-container {
+    margin-top: 20%;
+  }
+  .home-content-container h3 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 8px;
+  }
+  .home-content-container h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 12px;
+    margin-top: 10px;
+  }
+  #starfish {
+    width: 300px;
+    height: 300px;
+    margin-left: 20%;
+    margin-top: 70px;
+  }
+
+  .glass1 {
+    padding: 16px;
+    flex-direction: column-reverse;
+  }
+  .glass2 {
+    flex-direction: column-reverse;
+  }
+  .image-contain {
+    width: 100%;
+    height: 40%;
+  }
+  .image-contain img {
+    scale: 0.6;
+    margin-top: 35px;
+  }
+  .content-box {
+    width: 100%;
+    margin-top: 5px;
+    height: 60%;
+  }
+  .glass1 .content-box h2 {
+    font-size: 30px;
+    margin: 20px 0;
+  }
+  .glass1 .content-box p {
+    font-size: 18px;
+    margin-top: 8px;
+  }
+  .glass1 .content-box p:nth-child(3) {
+    display: none;
+  }
+  .hippo-contain img {
+    scale: 1.3;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .glass nav {
+    justify-content: space-around;
+    margin-top: 12px;
+  }
+  .glass nav .links {
+    display: none;
+  }
+  .glass nav h1 {
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .home-content-container {
+    margin-top: 15%;
+  }
+  .home-content-container h3 {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 8px;
+  }
+  .home-content-container h2 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 16px;
+    margin-top: 10px;
+  }
+  #starfish {
+    width: 350px;
+    height: 350px;
+    margin-left: 20%;
+    margin-top: 30px;
+  }
+  .glass1 {
+    padding: 16px;
+    flex-direction: column-reverse;
+  }
+  .glass2 {
+    flex-direction: column-reverse;
+  }
+  .image-contain {
+    width: 100%;
+    height: 40%;
+  }
+  .image-contain img {
+    scale: 0.6;
+    margin-top: 35px;
+  }
+  .content-box {
+    width: 100%;
+    margin-top: 0px;
+    height: 60%;
+  }
+  .glass1 .content-box h2 {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  .glass1 .content-box p {
+    font-size: 22px;
+    margin-top: 8px;
+  }
+  .hippo-contain img {
+    scale: 1.5;
+  }
+  .menu-btn{
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1550px) {
+  .glass nav {
+    justify-content: space-around;
+    margin-top: 16px;
+  }
+  .glass nav .links {
+    display: none;
+  }
+  .glass nav h1 {
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .home-content-container {
+    margin-top: 8%;
+  }
+  .home-content-container h3 {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 16px;
+  }
+  .home-content-container h2 {
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 30px;
+    margin-top: 10px;
+  }
+  #starfish {
+    width: 400px;
+    height: 400px;
+    margin-left: 30%;
+    margin-top: 25px;
+  }
+  .glass1 {
+    padding: 0px;
+  }
+  .image-contain img {
+    scale: 0.8;
+  }
+  .glass1 .content-box h2 {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  .glass1 .content-box p {
+    font-size: 22px;
+    margin-top: 8px;
+  }
+  .hippo-contain img {
+    scale: 1.5;
+  }
+  .menu-btn{
+    font-size: 35px;
+  }
+}
+
+
+@media screen and (min-width: 1751px) {
+  .glass1 .content-box h2 {
+    font-size: 50px;
+    margin: 10px 0;
+  }
+  .glass1 .content-box p {
+    font-size: 27px;
+    margin-top: 10px;
+  }
+}
