@@ -1,5 +1,6 @@
-let menu=document.querySelector(".menu-btn");
+let menu = document.querySelector(".menu-btn");
 
-menu.addEventListener("click",()=>{
-  menu.classList.toggle("active")
-})
+menu.addEventListener("click", (e) => {
+  if(e.target == menu.querySelector("i"))
+  menu.classList.toggle("active");
+});
